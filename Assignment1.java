@@ -29,30 +29,36 @@ public class Assignment1 {
 		age = in.nextInt();
 		System.out.print("Enter your IC number: ");
 		IC = in.nextLong();
+		System.out.println();
 		
 		//2.&3.
 		System.out.println("Product provided(per one quantity): ");
-		System.out.println("White bread = RM 5.00, Wheat bread = RM 7.00, Whole Grain bread = RM 9.00");
-		System.out.println("Rye Bread = RM 3.00, French Bread = RM 10.00, Hot-Dog Bread = RM 13.00");
+		System.out.println("White bread 	  = RM  5.00");
+		System.out.println("Wheat bread 	  = RM  7.00");
+		System.out.println("Whole Grain bread = RM  9.00");
+		System.out.println("Rye Bread 	  = RM  3.00");
+		System.out.println("French Bread 	  = RM 10.00");
+		System.out.println("Hot-Dog Bread 	  = RM 13.00");
+		System.out.println();
 		//System.out.print("Please enter the code of product required: ");
 	
 		
 		//4.
 		System.out.println("Quantity of Item wanted: ");
 		//integer1 = sc.nextInt();
-		System.out.print("White Bread =");
+		System.out.print("White Bread		=");
 		num1 = in.nextInt();
-		System.out.print("Wheat Bread =");
+		System.out.print("Wheat Bread 		=");
 		num2 = in.nextInt();
-		System.out.print("Whole Grain Bread =");
+		System.out.print("Whole Grain Bread  	=");
 		num3 = in.nextInt();
-		System.out.print("Rye Bread =");
+		System.out.print("Rye Bread		=");
 		num4 = in.nextInt();
-		System.out.print("French Bread =");
+		System.out.print("French Bread		=");
 		num5 = in.nextInt();
-		System.out.print("Hot-Dog Bread =");
+		System.out.print("Hot-Dog Bread		=");
 		num6 = in.nextInt();
-		
+		System.out.println();
 		
 		//5.
 		 sum = ((num1*5) + (num2*7) + (num3*9) + (num4*3) + (num5*10) + (num6*13));
